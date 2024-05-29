@@ -1,0 +1,27 @@
+.app {
+    text-align: center;
+    background-color: #1a1a1a; /* Bardzo ciemno szare tło */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Białe cyfry */
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745; /* Zielone przyciski */
+    color: white; /* Białe napisy */
+    border: none; /* Brak obramowania */
+    border-radius: 5px; /* Opcjonalnie, zaokrąglone rogi */
+  }
+  
